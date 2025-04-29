@@ -123,8 +123,11 @@ section{
     line-height: 1.8;
 }
 .home-img{
-    width: 32vw;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: auto;
 }
 .home-img img{
     width: 100%;
